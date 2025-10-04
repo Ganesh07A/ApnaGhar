@@ -1,0 +1,70 @@
+<% layout("/layouts/boilerplate") -%>
+<body>
+  <h2>Create a New Listing</h2>
+  <br />
+  <div class="row">
+    <!-- screen is made of 12 cols , offset -> how much space u want from left side  -->
+    <div class="col-8 offset-2">
+      <form action="/listings" method="post">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input
+            type="text"
+            placeholder="Enter Catchy Title"
+            name="title"
+            class="form-control"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea
+            type="text"
+            placeholder="Enter description"
+            name="description"
+            class="form-control"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label">Image</label>
+          <input
+            type="text"
+            name="image"
+            placeholder="image URL"
+            class="form-control"
+          />
+        </div>
+        <div class="row">
+          <div class="mb-3 col-md-4">
+            <label for="price" class="form-label">Price</label>
+            <input
+              type="number"
+              name="price"
+              placeholder="Enter price"
+              class="form-control"
+            />
+          </div>
+          <div class="mb-3 col-md-8">
+            <label for="country" class="form-label">Country</label>
+            <input
+              type="text"
+              name="country"
+              placeholder="India"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="location" class="form-label">Location</label>
+          <input
+            name="location"
+            placeholder="Enter Location"
+            class="form-control"
+          />
+        </div>
+
+        <button class="btn btn-primary m-2">Create</button>
+      </form>
+      <br /><br />
+    </div>
+  </div>
+</body>

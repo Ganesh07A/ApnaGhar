@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.body {
+    font-family: "Plus Jakarta Sans" , sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+.navbar {
+    background-color: rgb(237, 232, 232);
+    height: 5rem;
+
+}
+.navbar-brand span {
+    color: rgb(216, 54, 54);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+
+.fa-house-user {
+    color: rgb(216, 54, 54);
+    font-size: 2rem;
+}
+.nav-link {
+    color: #222222 !important;
+    font-style: italic;
+}
+
+/* footer */
+.info {
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 196, 201);
+}
+.f-info-links {
+    width: 100%;
+    text-align: center;
+}
+.c-info-socials {
+    width: 100%;
+    text-align: center;
+}
+.c-info-socials i {
+    font-size: 2rem;
+    color: #222222;
+    cursor: pointer;
+    
+}
+.c-name {
+    font-style: italic;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+    color: #222222;
+}
+
+/* Cards */
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+
+#edit-img {
+    height: 20rem;
+    width: 100%;
+}
+.card-body {
+    padding: 0;
+}
+.card-text
+ {
+    font-weight: 400 !important;
+ }
+
+ .listing-link {
+    text-decoration: none;
+ }
+
+ /* card effect */
+
+ .card-img-overlay {
+    opacity: 0;
+    text-align: center;
+   
+ }
+ .card-img-overlay b {
+    font-size: 1.3rem !important;
+    margin-top: 5rem !important;
+    color:#000000;
+ }
+
+ .card-img-overlay:hover{
+    opacity: 0.3;
+    background-color: #9c8d8d;
+    border-radius: 1rem !important;
+ }
+
+ /* New add page */
+ 
+.btn {
+    background-color: rgb(216, 54, 54) !important;
+    border: none !important;
+    color: white !important;
+}
+
+h2 {
+    color:rgb(216, 54, 54) !important ;
+}
